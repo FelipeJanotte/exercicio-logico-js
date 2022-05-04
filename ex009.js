@@ -2,7 +2,7 @@
   ? Implemente um método divida um array por uma quantidade passada por parâmetro. Entrada do método ([1, 2, 3, 4, 5], 2), Resultado do método: [[1, 2], [3, 4], [5]]
 */
 
-function particionizeArray(arr, partitionSize) {
+function partitionizeArray(arr, partitionSize) {
   let newArray = [];
 
   for (let i = 0; i < arr.length; i+= partitionSize) {
@@ -12,4 +12,4 @@ function particionizeArray(arr, partitionSize) {
   return newArray;
 }
 
-console.log(particionizeArray([1, 2, 3, 4, 5], 2));
+console.log(partitionizeArray([1, 2, 3, 4, 5], 2));
